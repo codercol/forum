@@ -1,0 +1,19 @@
+current directory: /Users/codercol/Desktop/hellorails/forum/vendor/bundle/gems/bcrypt-3.1.13/ext/mri
+/Users/codercol/.rbenv/versions/2.6.3/bin/ruby -I /Users/codercol/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190612-11431-u0zlz5.rb extconf.rb
+creating Makefile
+
+current directory: /Users/codercol/Desktop/hellorails/forum/vendor/bundle/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/codercol/Desktop/hellorails/forum/vendor/bundle/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+clang  -D__SKIP_GNU -I/Users/codercol/.rbenv/versions/2.6.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+current directory: /Users/codercol/Desktop/hellorails/forum/vendor/bundle/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 bcrypt_ext.bundle ./.gem.20190612-11431-6jvrrb
